@@ -4,14 +4,9 @@ import (
 	"testing"
 )
 
-const (
-	APPID  = ""
-	APPKEY = ""
-)
-
 func TestXsend(t *testing.T) {
 
-	x := NewXsend(APPID, APPKEY)
+	x := NewXsend("appid", "appkey")
 	x.SetAddress("+8615201893074")
 	x.SetProject("8sgWm")
 	d, e := x.Send()
