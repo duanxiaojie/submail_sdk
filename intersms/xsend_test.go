@@ -5,8 +5,8 @@ import (
 )
 
 const (
-	APPID  = "60005"
-	APPKEY = "440f691b53bf882390e78455fb8020ec"
+	APPID  = ""
+	APPKEY = ""
 )
 
 func TestXsend(t *testing.T) {
